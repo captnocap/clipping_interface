@@ -72,7 +72,7 @@ A modern, feature-rich web application for capturing, transcribing, and managing
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/captnocap/clipping_interface
-   cd stream-clipper-app
+   cd clipping_interface
    ```
 
 2. **Install all dependencies:**
