@@ -1,0 +1,30 @@
+# === General Node.js stuff ===
+node_modules/
+*.log
+dist/
+build/
+.env
+.DS_Store
+
+# === Ignore all JSON recursively, but NOT root-level important ones ===
+**/*.json
+!package.json
+!package-lock.json
+!client/package.json
+!client/package-lock.json
+
+# === Ignore test data inside clips_library but keep the folder ===
+# (Use .gitkeep inside to force directory retention)
+server/clips_library/**
+!server/clips_library/.gitkeep
+
+# === Ignore all inside client/public but keep static base if needed ===
+client/public/*
+!client/public/.gitkeep
+
+# === Explicitly keep config files if needed ===
+!tailwind.config.js
+!client/tailwind.config.js
+
+CLAUDE.md
+.claude
